@@ -18,14 +18,14 @@ KNN algorithm used for both classification and regression problems. KNN algorith
 - K is generally an odd number if the number of classes is 2. When K=1, then the algorithm is known as the nearest neighbor algorithm. This is the simplest case. 
 - Suppose P1 is the point, for which label needs to predict. First, you find the one closest point to P1 and then the label of the nearest point assigned to P1.
 
+<img src="Images/Picture1.png" width="400">
 
+- Suppose P1 is the point, for which label needs to predict. 
+- First, you find the k closest point to P1 and then classify points by majority vote of its k neighbors. 
+- Each object votes for their class and the class with the most votes is taken as the prediction. 
+- For finding closest similar points, you find the distance between points using distance measures such as Euclidean distance, Hamming distance, Manhattan distance and Minkowski distance.
 
+#### How to find the distance Between Points - Euclidean Distance
 
-
-
-
-Suppose P1 is the point, for which label needs to predict. 
-First, you find the k closest point to P1 and then classify points by majority vote of its k neighbors. 
-Each object votes for their class and the class with the most votes is taken as the prediction. 
-For finding closest similar points, you find the distance between points using distance measures such as Euclidean distance, Hamming distance, Manhattan distance and Minkowski distance.
-
+<img src="Images/Picture2.png" width="400">
+<img src="Images/Picture3.jpg" width="400">
