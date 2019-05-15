@@ -115,7 +115,7 @@ d5=p9[0]-p7[0]
 
 d6=p9[0]-p8[0]
 
-- But you will understand that, when the face is cloaser to the camera these d1,d2,..d6 distance will be increased. And when the face is far from the camera these distance will be decreased. There for using d1,d2,..d6 as feature is not effective since they are going to vary with the distance to the face from the camera.
+- But you will understand that, when the face is closer to the camera these d1,d2,..d6 distances will be increased. And when the face is far from the camera these distance will be decreased. Therefore using d1,d2,..d6 as feature is not effective since they are going to vary with the distance to the face from the camera.
 
 - Therefore we are going to get a ratio, where d2,d3,d4,d5,d6 will be devided by the largest length d1, then the new feature set will be defined as,
 
@@ -130,6 +130,6 @@ D4=d5/d1
 
 D5=d6/d1
 
-This feature set will not be varied with the distance from the camera to the face, therefore we can assume that these faeature are dependede only on the face type.
+This feature set will not be varied with the distance from the camera to the face, therefore we can assume that these faeature are depended only on the face type.
 
 **Now We can apply this problem into a machine learning algorithm as we have defined features and labels**
