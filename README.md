@@ -18,7 +18,7 @@ KNN algorithm used for both classification and regression problems. KNN algorith
 - K is generally an odd number if the number of classes is 2. When K=1, then the algorithm is known as the nearest neighbor algorithm. This is the simplest case. 
 - Suppose P1 is the point, for which label needs to predict. First, you find the one closest point to P1 and then the label of the nearest point assigned to P1.
 
-<img src="Images/Picture1.png" width="400">
+<img src="https://miro.medium.com/max/1360/0*De1DLB3Io5DAzfWl." width="400">
 
 - Suppose P1 is the point, for which label needs to predict. 
 - First, you find the k closest point to P1 and then classify points by majority vote of its k neighbors. 
